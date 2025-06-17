@@ -46,7 +46,7 @@
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  {{$banner->title}}
+                  {{ strtoupper($banner->title) }}
                 </div>
                 <div
                   class="tp-caption tp-resizeme text-white text-shadow letter-spacing-7px"
